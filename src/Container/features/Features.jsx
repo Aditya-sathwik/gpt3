@@ -7,30 +7,32 @@ import 'aos/dist/aos.css';
 
 const featuresData = [
   {
-    title :"Improving end distrusts instantly ",
-    text : "From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.",
+    title: "AI Meetup: Building Trust in Technology",
+    text: "Join us for an insightful discussion on how AI is transforming industries and how trust is a critical factor in its adoption. Learn how we can address challenges and build stronger connections in the AI space.",
   },
   {
-    title :"Become the tended active",
-    text : "Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he tended active enable to.",
+    title: "Networking with AI Enthusiasts",
+    text: "Meet fellow AI enthusiasts, developers, and industry professionals. This is your opportunity to share ideas, collaborate, and grow your network in the AI community.",
   },
   {
-    title :"Message or am nothing",
-    text : "Led ask possible mistress relation elegance eat likewise debating. By message or am nothing amongst chiefly address.",
+    title: "Explore AI Innovations",
+    text: "Discover the latest advancements in artificial intelligence, from machine learning to deep learning, and how these innovations are shaping the future of various sectors.",
   },
   {
-    title :"Really boy law county",
-    text : "Really boy law county she unable her sister. Feet you off its like like six. Among sex are leave law built now. In built table in an rapid blush.",
+    title: "Hands-on AI Workshops",
+    text: "Engage in practical, hands-on workshops that will allow you to explore AI tools, frameworks, and real-world applications. Whether you're a beginner or an expert, there's something for everyone!",
   },
 ]
+
 const Features = () => {
   return (
     <div className="gpt3__features section__padding" id='features' data-aos="zoom-in">
       <div className="gpt3__features-heading">
-        <h1 className="gradient__text">
-        The Future is Now and You Just Need To Realize It. Step into Future Today & Make it Happen.
-        </h1>
-        <p>Request Early Access to Get Started</p>
+      <h1 className="gradient__text">
+  The Future of AI Starts Today. Join Us and Be Part of the Revolution.
+</h1>
+<p>Request Early Access to Reserve Your Spot at the AI Meetup</p>
+
       </div>
       <div className="gpt3__features-container">
        {featuresData.map((item,index) =>(

@@ -4,6 +4,7 @@ import {Cta,Brand,Navbar} from './Components';
 import './App.css'; 
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import Form from './Container/form/form.jsx'
 
 const App = () => {
   return (
@@ -12,12 +13,13 @@ const App = () => {
         <Navbar/>
         <Header/>
         </div> 
-        <Brand/> 
+        {/* <Brand/>  */}
         <Whatgpt3/> 
         <Features/> 
         <Possibility/>
         <Cta/> 
         <Blog/> 
+        <Form/>
         <Footer/> 
     </div>
   )

@@ -9,9 +9,8 @@ const Menu = () => (
   <>
          <p><a href="#home">Home</a></p>
           <p><a href="#whpt3">What is  AI</a></p>
-          <p><a href="#possibility">Open AI</a></p>
-          <p><a href="#features">case Studies</a></p>
-          <p><a href="#blog">Library</a></p>      
+          <p><a href="#features">why to join Us ?</a></p>
+          <p><a href="#blog">AI Blogs</a></p>      
   </>
 )
 const Navbar = () => {
