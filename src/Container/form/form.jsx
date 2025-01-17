@@ -40,7 +40,7 @@ const Form = () => {
   ];
 
   return (
-    <div className="gpt3__form section__padding">
+    <div className="gpt3__form section__padding"  id='Register' data-aos="fade-up">
       <div className="gpt3__footer-heading" data-aos="zoom-in">
         <h1 className="gradient__text">Register now</h1>
       </div>

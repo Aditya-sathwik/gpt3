@@ -12,6 +12,7 @@ const Header = () => {
   }
 ,[])
   return (
+    <>
     <div className='gpt3__header section__padding' id='home' data-aos="fade-up">
       <div className="gpt3__header-content">
         <h1 className='gradient__text'>Connect, Learn, and Grow Together!</h1>
@@ -28,7 +29,21 @@ const Header = () => {
       <div className="gpt3__header-image">
         <img src={ai} alt="ai" />
       </div>
+
+      
     </div>
+
+    <div className="gpt3__cta" data-aos="fade-left">
+       <div className="gpt3__cta-content">
+        <p>Request Early Access to Get Started</p>
+        <h3>Register today & start exploring the endless possiblities.</h3>
+       </div>
+       <div className="gpt3__cta-btn">
+        <button type="button" ><a href="#Register">Get Started</a></button>
+       </div>
+    </div>
+
+    </>
   )
 }
 

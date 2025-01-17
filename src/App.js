@@ -1,6 +1,6 @@
 import React from 'react'
 import {Footer,Blog,Possibility,Features,Whatgpt3,Header} from './Container';
-import {Cta,Brand,Navbar} from './Components';
+import {Navbar} from './Components';
 import './App.css'; 
 import AOS from 'aos'
 import 'aos/dist/aos.css'
@@ -17,7 +17,7 @@ const App = () => {
         <Whatgpt3/> 
         <Features/> 
         <Possibility/>
-        <Cta/> 
+        {/* <Cta/>  */}
         <Blog/> 
         <Form/>
         <Footer/> 
